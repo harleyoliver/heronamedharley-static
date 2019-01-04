@@ -1,0 +1,110 @@
+html,
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  scroll-behavior: smooth; }
+
+a {
+  color: #1e272e;
+  padding: 20px; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1.4;
+  color: #1e272e; }
+  h1 span {
+    display: block;
+    line-height: 0.75; }
+    h1 span:nth-of-type(2) {
+      padding-left: 50px; }
+  @media screen and (min-width: 1680px) {
+    h1 {
+      font-size: 92px; } }
+
+.banner-image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/IMG_1937.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.1; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3%;
+  min-height: 100vh; }
+  section .button__banner {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 60px;
+    text-align: center;
+    width: auto;
+    color: #fff;
+    background-color: #1e272e;
+    transition: all 0.3s ease-in-out; }
+    section .button__banner:hover {
+      background-color: #95a5a6;
+      text-decoration: none; }
+  @media screen and (min-width: 1024px) {
+    section {
+      display: flex;
+      flex-direction: row; }
+      section > div:first-of-type {
+        width: 30%;
+        max-width: 30%;
+        flex-basis: 30%; }
+      section > div:last-of-type {
+        width: 50%;
+        max-width: 50%;
+        flex-basis: 50%; }
+      section .button__banner {
+        display: inline-block; } }
+  section:nth-of-type(2) {
+    background: #ecf0f1; }
+
+#work-ive-done {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+  @media screen and (min-width: 768px) {
+    #work-ive-done {
+      padding-left: 50px; } }
+  #work-ive-done article {
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 28px; }
+    #work-ive-done article a {
+      text-decoration: none;
+      color: #2c3e50;
+      transition: all 0.3s ease-in-out; }
+      #work-ive-done article a:hover, #work-ive-done article a:focus {
+        color: #2980b9; }
+  @media screen and (min-width: 768px) {
+    #work-ive-done article {
+      width: 50%;
+      flex-basis: 50%;
+      max-width: 50%; } }
+
+footer {
+  text-align: center;
+  font-size: 16px; }
+  footer a {
+    display: block; }
+    @media screen and (min-width: 768px) {
+      footer a {
+        display: inline-block; } }
