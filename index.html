@@ -43,16 +43,19 @@
     </script>
   </head>
   <body>
-    <div class="banner-image"></div>
-    <section id="get-to-know-me">
+    <div itemprop="image" class="banner-image"></div>
+    <section itemscope itemtype="http://schema.org/Service" id="get-to-know-me">
       <div>
-        <h1><span>Hero</span> <span>Named</span> <span>Harley</span></h1>
+        <h1 itemprop="brand">
+          <span>Hero</span> <span>Named</span> <span>Harley</span>
+        </h1>
       </div>
       <div>
         <p>
-          With over 9 years of industry and freelance experience, I’ve noticed
-          that everyone wants a website. Everyone wants a space where they can
-          share their story and create a community.
+          With over 9 years of industry and freelance experience in
+          <span itemprop="areaServed">Geelong</span>, I’ve noticed that everyone
+          wants a <span itemprop="serviceOutput">website</span>. Everyone wants
+          a space where they can share their story and create a community.
         </p>
         <p></p>
 
@@ -96,40 +99,44 @@
         <a href="#who-i-am" class="button__banner">Learn More About Me</a>
       </div>
       <div id="work-ive-done">
-        <article>
+        <article itemscope itemtype="http://schema.org/CreativeWork">
           <a
+            itemprop="url"
             href="https://www.unimotionsim.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>Universal Motion Simulation</h3>
+            <h3 itemprop="name">Universal Motion Simulation</h3>
           </a>
         </article>
-        <article>
+        <article itemscope itemtype="http://schema.org/CreativeWork">
           <a
+            itemprop="url"
             href="https://annualreport.ndis.gov.au"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>NDIS Annual Report 2016-17</h3>
+            <h3 itemprop="name">NDIS Annual Report 2016-17</h3>
           </a>
         </article>
-        <article>
+        <article itemscope itemtype="http://schema.org/CreativeWork">
           <a
+            itemprop="url"
             href="http://www.commercialfs.net.au"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>Commercial Facility Services</h3>
+            <h3 itemprop="name">Commercial Facility Services</h3>
           </a>
         </article>
-        <article>
+        <article itemscope itemtype="http://schema.org/CreativeWork">
           <a
+            itemprop="url"
             href="https://www.catocraftauto.com.au/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>Catocraft Automotive</h3>
+            <h3 itemprop="name">Catocraft Automotive</h3>
           </a>
         </article>
       </div>
@@ -139,9 +146,11 @@
         <h1><span>Who Is</span> <span>Harley</span> <span>Oliver?</span></h1>
       </div>
       <div>
-        <p>
-          My name is a Harley Oliver, and I am a Geelong based Web Developer,
-          Motorbike enthusiast and MMA connoisseur.
+        <p itemscope itemprop="Person" itemtype="http://schema.org/Person">
+          My name is a <span itemprop="name">Harley Oliver</span>, and I am a
+          <span itemprop="workLocation">Geelong</span> based
+          <span itemprop="jobTitle">Web Developer</span>, Motorbike enthusiast
+          and MMA connoisseur.
         </p>
 
         <p>
@@ -158,7 +167,7 @@
 
         <p>
           In the last decade, I have come to fully understand the power of a
-          website, the importance of storytelling and the nuance of audience.
+          websites, the importance of storytelling and the nuance of audience.
         </p>
 
         <p>And now, I want to help you do the same.</p>
